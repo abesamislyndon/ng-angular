@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app = "myapp">
+<head>
+	<meta charset="UTF-8">
+	<title>angular</title>
+</head>
+<style>
+	[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+</style>
+<body>
+
+<div>
+<table ng-controller = "myController" class="ng-cloak">
+	<tr ng-repeat = "project in projects">
+		<td>{{project.title}}</td>
+		<td>we</td>
+		<td>we</td>
+		<td>we</td>
+		<td>qwe</td>
+	</tr>
+</table>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+<script src="app.js"></script>	
+</body>
+</html>
+
